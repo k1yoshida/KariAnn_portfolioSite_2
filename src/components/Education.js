@@ -20,7 +20,8 @@ const Education = () => (
 
           <p>
             Completed LEARN Academy's 4 month Ruby on Rails & Javascript
-            bootcamp, located in downtown San diego.
+            bootcamp, located in downtown San diego. 40 hrs/week of immersive
+            coding experience.
           </p>
         </div>
       </div>
@@ -33,8 +34,10 @@ const Education = () => (
             <span>&bull;</span>
             <em className="date">March 2016</em>
           </p>
-
-          <p>Something awesome here</p>
+          <p>
+            Graduated with honors, gained skills and experience in analytical
+            thinking/problem solving/close attention to details
+          </p>
         </div>
       </div>
     </div>

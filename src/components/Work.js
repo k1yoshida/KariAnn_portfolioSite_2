@@ -19,33 +19,49 @@ const Work = () => (
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            Worked for{" "}
+            <a href="www.lennd.com" target="_blank">
+              {" "}
+              Lennd{" "}
+            </a>, event management app company, as a web developer intern.
+            Contributed to the management of Lennd's internal UI library, as
+            well as built components for the
+            <a target="_blank" href="lennd.github.io/marketing/pricing/">
+              {" "}
+              Lennd marketing page
+            </a>.
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Synthetic Genomics</h3>
           <p className="info">
-            UX Designer
+            Research Associate
             <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
+            <em className="date">April 2016 - August 2017</em>
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+            Optimized workflow for Algal-biofuel program by organizing
+            correspondents across different research groups.
+          </p>
+        </div>
+      </div>
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Vetica Labs</h3>
+          <p className="info">
+            Research Intern
+            <span>&bull;</span>
+            <em className="date">June 2015 - April 2016</em>
+          </p>
+
+          <p>
+            Standardized experimental protocol through testing experimental
+            conditions. Contributed to long-term research projects in a start-up
+            environment.
           </p>
         </div>
       </div>

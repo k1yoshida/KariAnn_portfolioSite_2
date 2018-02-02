@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  FaGooglePlusSquare,
+  FaEnvelope,
   FaGithubSquare,
   FaLinkedinSquare
 } from "react-icons/lib/fa";
@@ -15,7 +15,7 @@ const Banner = () => (
       <ul className="social">
         <li>
           <a href="#">
-            <FaGooglePlusSquare />
+            <FaEnvelope />
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@ const Banner = () => (
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://github.com/k1yoshida">
             <FaGithubSquare />
           </a>
         </li>

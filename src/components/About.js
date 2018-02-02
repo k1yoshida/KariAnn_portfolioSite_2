@@ -1,48 +1,46 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { FaFile } from "react-icons/lib/fa";
 
-import profilePic from "../assets/images/profilepic.jpg";
+import profilePic from "../assets/images/kariann_square.jpg";
 
 const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="" />
+        <div className="profile-pic">
+          <img src={profilePic} alt="" />
+        </div>
       </div>
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          <span style={{ fontSize: "16px" }}>Hi There!</span> My name is Kari
+          Ann Yoshida, originally from Fremont CA, I moved down to San Diego
+          about 6 years ago to attend UC San Diego for a degree in Biochemistry.
+          Long story short, after about a year of working in research I decided
+          that the lab life wasn't for me, and began learning to code on my own.
+          I went through LEARN Academy's 4 month Full-Stack Ruby on Rails Web
+          development program, and I am currently looking for opportunities in
+          full-stack or front-end development.
         </p>
         <div className="row">
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>Kari Ann Yoshida</span>
               <br />
-              <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
-              </span>
-              <br />
-              <span>(123)456-7890</span>
-              <br />
-              <span>anyone@website.com</span>
+
+              <span>yoshidakariann@gmail.com</span>
             </p>
           </div>
           <div className="columns download">
             <p>
-              <a href="#" className="button">
-                <FaCloudDownload /> Download Resume
+              <a
+                href="https://drive.google.com/file/d/1HXRGJ_efDP0el7ogWDoJJe2aABuI5aDL/view?usp=sharing"
+                className="button"
+                target="_blank"
+              >
+                <FaFile /> View Full Resume
               </a>
             </p>
           </div>

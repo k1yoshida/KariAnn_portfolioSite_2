@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  FaFacebook,
-  FaTwitter,
   FaGithub,
-  FaInstagram,
+  FaLinkedinSquare,
   FaChevronCircleUp
 } from "react-icons/lib/fa";
 
@@ -13,36 +11,14 @@ const Footer = () => (
       <div className="twelve columns">
         <ul className="social-links">
           <li>
-            <a href="#">
-              <FaFacebook />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a href="#">
+            <a href="https://github.com/k1yoshida">
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="#">
-              <FaGithub />
+            <a href="https://www.linkedin.com/in/kariannyoshida/">
+              <FaLinkedinSquare />
             </a>
-          </li>
-        </ul>
-
-        <ul className="copyright">
-          <li>&copy; Copyright 2018 CeeVee</li>
-          <li>
-            Design by
-            <a title="Styleshout" href="http://www.styleshout.com/">
-              Styleshout
-            </a>
-            Developed in React ⚛️ by &nbsp;
-            <a href="http://www.amanhimself.me">Aman Mittal</a>
           </li>
         </ul>
       </div>

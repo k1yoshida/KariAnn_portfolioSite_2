@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`librebaskerville`, `open sans`]
+        fonts: [`librebaskerville`, `open sans`, `Abril Fatface`]
       }
     },
     {
